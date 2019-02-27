@@ -10,7 +10,7 @@ void print(auto A)
    cout<<endl;
 }
 
-/*Selection Sort*/
+/*Bubble Sort*/
 void mystery1(auto& Data)
 {
   cout<<endl<<"Mystery 1"<<endl<<"---------------------"<<endl;
@@ -24,7 +24,7 @@ void mystery1(auto& Data)
     print(Data);
   }/*End Second For*/
 
-}
+}/*End Mystery 1*/
 
 /*Bubble Sort*/
 void mystery2(auto& Data)
@@ -40,9 +40,9 @@ void mystery2(auto& Data)
     print(Data);
   }/*End Second For*/
 
-}
+}/*End Mystery 2*/
 
-/**/
+/*Selection Sort*/
 void mystery3(auto& Data)
 {
   cout<<endl<<"Mystery 3"<<endl<<"---------------------"<<endl;
@@ -56,7 +56,7 @@ void mystery3(auto& Data)
     print(Data);
   }/*End Second For*/
 
-}
+}/*End Mystery 3*/
 
 int main()
 {
