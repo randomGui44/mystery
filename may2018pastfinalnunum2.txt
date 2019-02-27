@@ -1,0 +1,39 @@
+2.)
+
+a.)	Mystery 1
+	---------------------
+	36 18 22 30 29 25 12 
+	18 36 22 30 29 25 12 
+	18 22 36 30 29 25 12 
+	18 22 30 36 29 25 12 
+	18 22 29 30 36 25 12 
+	18 22 25 29 30 36 12 
+	12 18 22 25 29 30 36 
+
+	Mystery 2
+	---------------------
+	18 22 30 29 25 12 36 
+	18 22 29 25 12 30 36 
+	18 22 25 12 29 30 36 
+	18 22 12 25 29 30 36 
+	18 12 22 25 29 30 36 
+	12 18 22 25 29 30 36 
+	12 18 22 25 29 30 36 
+
+	Mystery 3
+	---------------------
+	12 36 22 30 29 25 18 
+	12 18 36 30 29 25 22 
+	12 18 22 36 30 29 25 
+	12 18 22 25 36 30 29 
+	12 18 22 25 29 36 30 
+	12 18 22 25 29 30 36 
+	12 18 22 25 29 30 36 
+
+b.) 
+
+	i.)	Bubble Sort - values in the data set are being compared and swap at each iteration, moving the largest value, 36, from the front to back.
+	ii. ) Bubble Sort - the data set values are being compared ], starting with the value at index 1, not 0, to place the smallest value at the front of the data set. 
+	iii.) Selection Sort - the third mystery found the next smallest value and put it in its correct position.
+
+c.) Θ(log2(n))
